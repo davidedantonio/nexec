@@ -1,5 +1,5 @@
 {
-  "name": "nexec",
+  "name": "@davide.dantonio/nexec",
   "version": "1.0.0",
   "description": "Save and execute your favourite shell command",
   "main": "nexec.js",
