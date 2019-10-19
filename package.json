@@ -1,0 +1,19 @@
+{
+  "name": "nexec",
+  "version": "1.0.0",
+  "description": "Execute your favourite shell command ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davide D'Antonio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidedantonio/nexec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidedantonio/nexec/issues"
+  },
+  "homepage": "https://github.com/davidedantonio/nexec#readme"
+}
