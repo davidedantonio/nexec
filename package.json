@@ -1,12 +1,16 @@
 {
   "name": "nexec",
   "version": "1.0.0",
-  "description": "Execute your favourite shell command ",
-  "main": "index.js",
+  "description": "Save and execute your favourite shell command",
+  "main": "nexec.js",
+  "bin": {
+    "nexec": "nexec.js"
+  },
   "scripts": {
+    "lint": "standard --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Davide D'Antonio",
+  "author": "Davide D'Antonio <davide.dantonio@webeetle.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/davidedantonio/nexec/issues"
   },
-  "homepage": "https://github.com/davidedantonio/nexec#readme"
+  "homepage": "https://github.com/davidedantonio/nexec#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "commander": "^3.0.2",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
 }
